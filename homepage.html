@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{%block title%}Game Select{%endblock%}
+
+
+{% block body %}
+        <form id="logos" method="post" action="http://localhost:5000/roster">
+                <button type="submit" id="img1" name="StarWars">
+                </button>
+                <button type="submit" id="img2" name="Villians">
+                </button>
+                <button type="submit" id="img3" name="Marvel">
+                </button>
+        </form>
+{% endblock %}
